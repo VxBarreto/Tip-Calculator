@@ -18,6 +18,10 @@ input {
     color: var(--very-dark-cyan);
     padding: 0.62rem;
     font-size: 1.37rem;
+    text-align: right ;
+    background-color: var(--very-light-grayish-cyan);
+    border: none;
+    border-radius: 0.5rem;
 }
 
 input:focus {
@@ -38,15 +42,6 @@ body {
     height: 100%;
 }
 
-.attribution { 
-    font-size: 0.69rem ;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
 .painel {
     background: var(--white);
     border-radius: 1.25rem;
@@ -54,6 +49,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 37.5rem;
+    gap: 1.25rem;
 }
 
 .painel form {
@@ -105,4 +101,32 @@ body {
 
 .custom__tip {
     width: 100%;
+}
+
+.results {
+    background-color: var(--very-dark-cyan);
+    color: var(--white);
+    padding: 1.25rem;
+    border-radius: 0.62rem;
+}
+
+.m-bottom2 {
+    margin-bottom: 1.25rem;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1rem;
+
+}
+
+.row aside {
+    color: var(--strong-cyan);
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.text__grey {
+    color: var(--grayish-cyan);
 }
